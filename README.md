@@ -13,7 +13,7 @@ cd TrainRestFW
 
 Instalación del entorno.
 ```
-pip install python-virtualenv
+pip3 install virtualenv
 ```
 Creación del entorno virtual.
 ```
@@ -26,10 +26,10 @@ source myvenv/bin/activate
 
 #### Instalación de dependencias.
 ```
-pip install -r requirementos.txt
+pip3 install -r requirementos.txt
 ```
 ### Ejecuta el proyecto.
 ```
-python manage.py migrate
-python manage.py runserver 0.0.0.0:8000
+python3 manage.py migrate
+python3 manage.py runserver 0.0.0.0:8000
 ```
